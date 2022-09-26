@@ -103,7 +103,7 @@ class HomeScreen extends StatelessWidget {
                                   controller: timeController,
                                   validate: (String? value) {
                                     if (value!.isEmpty) {
-                                      return "task time must not be empty";
+                                      return "Task time must not be empty";
                                     }
                                     return null;
                                   },

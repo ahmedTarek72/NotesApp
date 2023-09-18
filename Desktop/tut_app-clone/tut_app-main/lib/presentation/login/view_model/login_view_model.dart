@@ -63,11 +63,11 @@ class LoginViewModel
         .fold(
             (failure) => {
                   // left -> failure
-                  print(failure.message)
+                  
                 },
             (data) => {
                   // right -> data (success)
-                  print(data.customer?.name)
+               
                 });
   }
 
